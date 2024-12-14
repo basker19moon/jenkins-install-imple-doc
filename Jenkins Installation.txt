@@ -1,0 +1,16 @@
+
+1)Jenkins URL:
+
+  http://54.172.50.9:8080/
+
+2) Sonarqube url http://54.172.50.9:9000/
+
+3) sonar token
+
+   squ_ecb7fc5c3fff6f192f6b46307a3579dfb050b396
+   
+   sonar-scanner \
+  -Dsonar.projectKey=prime-clone \
+  -Dsonar.sources=.  \
+  -Dsonar.host.url=http://54.172.50.9:9000 \
+  -Dsonar.login=squ_ecb7fc5c3fff6f192f6b46307a3579dfb050b396
